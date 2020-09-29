@@ -14,3 +14,7 @@ set list
 
 " Line break on words
 set linebreak
+
+" Auto save on pane switch (using vim-tmux-navigate)
+let g:tmux_navigator_save_on_switch = 1
+

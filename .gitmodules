@@ -43,3 +43,6 @@
 [submodule ".vim/pack/plugins/start/vim-obsession"]
 	path = .vim/pack/plugins/start/vim-obsession
 	url = git@github.com:tpope/vim-obsession.git
+[submodule ".vim/pack/plugins/start/vim-tmux-navigator"]
+	path = .vim/pack/plugins/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
