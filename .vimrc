@@ -15,6 +15,10 @@ set list
 " Line break on words
 set linebreak
 
+" Only match case if any caps is used
+set ignorecase
+set smartcase
+
 " Auto save on pane switch (using vim-tmux-navigate)
 let g:tmux_navigator_save_on_switch = 1
 
