@@ -1,0 +1,6 @@
+[user]
+	name = Hayley Hughes
+	email = hayley@foxes.systems
+	signingKey = CE4D78E2
+[commit]
+	gpgSign = true
