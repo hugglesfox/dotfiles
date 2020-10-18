@@ -1,13 +1,8 @@
-packadd! onedark.vim
-
-if (has("termguicolors"))
-  set termguicolors
-endif
-
-colorscheme onedark
-
-" Show line numbers
-set number
+" Enable dracula color scheme
+packadd! dracula
+syntax enable
+let g:dracula_colorterm = 0
+colorscheme dracula
 
 " Show invisibles
 set list
@@ -24,4 +19,8 @@ set omnifunc=syntaxcomplete#Complete
 
 " Auto save on pane switch (using vim-tmux-navigate)
 let g:tmux_navigator_save_on_switch = 1
+
+let g:lightline = {
+      \ 'colorscheme': 'dracula',
+      \ }
 
