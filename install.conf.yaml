@@ -8,12 +8,14 @@
   - ~/.config/alacritty
 
 - link:
+    ~/.config/alacritty/alacritty.yml: alacritty.yml
+    ~/.gitconfig:
+    ~/.mutt:
+    ~/.muttrc:
+    ~/.ssh:
     ~/.tmux.conf:
     ~/.vim:
     ~/.vimrc:
-    ~/.gitconfig:
-    ~/.ssh:
-    ~/.config/alacritty/alacritty.yml: alacritty.yml
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
