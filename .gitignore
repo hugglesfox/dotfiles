@@ -1,3 +1,4 @@
 .gitsecret/keys/random_seed
 ssh/id_rsa
 ssh/known_hosts
+vim/netrwhist
