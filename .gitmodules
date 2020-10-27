@@ -41,12 +41,15 @@
 [submodule "vim/pack/themes/start/dracula"]
 	path = vim/pack/themes/start/dracula
 	url = git@github.com:dracula/vim.git
-[submodule "vim/pack/themes/start/onedark.vim"]
-	path = vim/pack/themes/start/onedark.vim
-	url = git@github.com:joshdick/onedark.vim.git
 [submodule "vim/pack/plugins/start/lightline.vim"]
 	path = vim/pack/plugins/start/lightline.vim
 	url = git@github.com:itchyny/lightline.vim.git
 [submodule "mutt/dracula"]
 	path = mutt/dracula
 	url = git@github.com:dracula/mutt.git
+[submodule "vim/pack/plugins/start/vim-airline"]
+	path = vim/pack/plugins/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim/pack/plugins/start/vim-vinegar"]
+	path = vim/pack/plugins/start/vim-vinegar
+	url = git@github.com:tpope/vim-vinegar.git
