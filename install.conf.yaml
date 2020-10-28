@@ -10,9 +10,6 @@
 - link:
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.gitconfig:
-    ~/.mailcap:
-    ~/.mutt:
-    ~/.muttrc:
     ~/.tmux.conf:
     ~/.vim:
     ~/.vimrc:
