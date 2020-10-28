@@ -1,55 +1,52 @@
 [submodule "vim/pack/plugins/start/vim-polyglot"]
 	path = vim/pack/plugins/start/vim-polyglot
-	url = git@github.com:sheerun/vim-polyglot.git
+	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "vim/pack/plugins/start/vim-fugitive"]
 	path = vim/pack/plugins/start/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
-[submodule "vim/pack/plugins/start/vim-gitgutter"]
-	path = vim/pack/plugins/start/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim/pack/plugins/start/ctrlp.vim"]
 	path = vim/pack/plugins/start/ctrlp.vim
-	url = git@github.com:ctrlpvim/ctrlp.vim.git
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "vim/pack/plugins/start/vim-sensible"]
 	path = vim/pack/plugins/start/vim-sensible
-	url = git@github.com:tpope/vim-sensible.git
+	url = https://github.com/tpope/vim-sensible.git
 [submodule "vim/pack/plugins/start/lexima.vim"]
 	path = vim/pack/plugins/start/lexima.vim
-	url = git@github.com:cohama/lexima.vim.git
+	url = https://github.com/cohama/lexima.vim.git
 [submodule "vim/pack/plugins/start/vim-obsession"]
 	path = vim/pack/plugins/start/vim-obsession
-	url = git@github.com:tpope/vim-obsession.git
+	url = https://github.com/tpope/vim-obsession.git
 [submodule "vim/pack/plugins/start/vim-tmux-navigator"]
 	path = vim/pack/plugins/start/vim-tmux-navigator
-	url = git@github.com:christoomey/vim-tmux-navigator.git
+	url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "vim/pack/plugins/start/vim-surround"]
 	path = vim/pack/plugins/start/vim-surround
-	url = git@github.com:tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "vim/pack/plugins/start/vim-commentary"]
 	path = vim/pack/plugins/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "dotbot"]
 	path = dotbot
-	url = git@github.com:anishathalye/dotbot.git
+	url = https://github.com/anishathalye/dotbot.git
 	ignore = dirty
 [submodule "vim/pack/plugins/start/goyo.vim"]
 	path = vim/pack/plugins/start/goyo.vim
-	url = git@github.com:junegunn/goyo.vim.git
+	url = https://github.com/junegunn/goyo.vim.git
 [submodule "vim/pack/plugins/start/limelight.vim"]
 	path = vim/pack/plugins/start/limelight.vim
-	url = git@github.com:junegunn/limelight.vim.git
+	url = https://github.com/junegunn/limelight.vim.git
 [submodule "vim/pack/themes/start/dracula"]
 	path = vim/pack/themes/start/dracula
-	url = git@github.com:dracula/vim.git
+	url = https://github.com/dracula/vim.git
 [submodule "vim/pack/plugins/start/lightline.vim"]
 	path = vim/pack/plugins/start/lightline.vim
-	url = git@github.com:itchyny/lightline.vim.git
+	url = https://github.com/itchyny/lightline.vim.git
 [submodule "mutt/dracula"]
 	path = mutt/dracula
-	url = git@github.com:dracula/mutt.git
+	url = https://github.com/dracula/mutt.git
 [submodule "vim/pack/plugins/start/vim-airline"]
 	path = vim/pack/plugins/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
+	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/pack/plugins/start/vim-vinegar"]
 	path = vim/pack/plugins/start/vim-vinegar
-	url = git@github.com:tpope/vim-vinegar.git
+	url = https://github.com/tpope/vim-vinegar.git
