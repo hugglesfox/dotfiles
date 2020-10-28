@@ -5,10 +5,12 @@
 - clean: ['~', '~/.config/alacritty']
 
 - create:
+  - ~/bin
   - ~/.config/alacritty
 
 - link:
-    ~/.config/alacritty/alacritty.yml: alacritty.yml
+    ~/bin/debian-toolbox: bin/debian-toolbox
+    ~/.config/alacritty/alacritty.yml:
     ~/.gitconfig:
     ~/.tmux.conf:
     ~/.vim:
