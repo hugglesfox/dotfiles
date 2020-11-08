@@ -8,6 +8,7 @@
   - ~/.config/alacritty
 
 - link:
+    ~/.bash_profile:
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.gitconfig:
     ~/.tmux.conf:
