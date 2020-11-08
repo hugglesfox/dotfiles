@@ -6,14 +6,18 @@
 
 - create:
   - ~/.config/alacritty
+  - ~/.tmux
+  - ~/bin
 
 - link:
     ~/.bash_profile:
-    ~/.config/alacritty/alacritty.yml: alacritty.yml
+    ~/.config/alacritty/alacritty.yml:
     ~/.gitconfig:
     ~/.tmux.conf:
+    ~/.tmux/tpm: tmux/tpm
     ~/.vim:
     ~/.vimrc:
+    ~/bin/debian-toolbox: bin/debian-toolbox
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
