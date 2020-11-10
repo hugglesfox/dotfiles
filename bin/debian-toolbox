@@ -14,7 +14,7 @@ podman exec -it $RELEASE sh -exc '
 echo force-unsafe-io > /etc/dpkg/dpkg.cfg.d/unsafe-io
 
 apt-get update
-apt-get install -y libnss-myhostname sudo eatmydata libcap2-bin flatpak-xdg-utils
+apt-get install -y libnss-myhostname sudo eatmydata libcap2-bin flatpak-xdg-utils locales
 
 # allow sudo with empty password
 sed -i "s/nullok_secure/nullok/" /etc/pam.d/common-auth
