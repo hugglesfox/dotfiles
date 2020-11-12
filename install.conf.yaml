@@ -13,6 +13,7 @@
     ~/.bash_profile:
     ~/.config/alacritty/alacritty.yml:
     ~/.doom.d:
+    ~/.emacs.d:
     ~/.gitconfig:
     ~/.tmux.conf:
     ~/.tmux/tpm: tmux/tpm
