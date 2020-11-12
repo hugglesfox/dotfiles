@@ -21,4 +21,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [~/.emacs.d/bin/doom -y install]
+  - [yes | ~/.emacs.d/bin/doom install]
