@@ -53,3 +53,6 @@
 [submodule "tmux/tpm"]
 	path = tmux/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "emacs.d"]
+	path = emacs.d
+	url = https://github.com/hlissner/doom-emacs.git
