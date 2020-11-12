@@ -2,16 +2,14 @@
     link:
       relink: true
 
-- clean: ['~', '~/.config/alacritty']
+- clean: ['~', '~/.config', '~/.tmux']
 
 - create:
-  - ~/.config/alacritty
   - ~/.tmux
-  - ~/bin
 
 - link:
     ~/.bash_profile:
-    ~/.config/alacritty/alacritty.yml:
+    ~/.config/alacritty:
     ~/.doom.d:
     ~/.emacs.d:
     ~/.gitconfig:
@@ -19,7 +17,7 @@
     ~/.tmux/tpm: tmux/tpm
     ~/.vim:
     ~/.vimrc:
-    ~/bin/debian-toolbox: bin/debian-toolbox
+    ~/bin:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
