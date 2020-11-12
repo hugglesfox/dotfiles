@@ -12,6 +12,7 @@
 - link:
     ~/.bash_profile:
     ~/.config/alacritty/alacritty.yml:
+    ~/.doom.d:
     ~/.gitconfig:
     ~/.tmux.conf:
     ~/.tmux/tpm: tmux/tpm
