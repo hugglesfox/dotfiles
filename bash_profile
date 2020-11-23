@@ -12,8 +12,8 @@ if [ -f ~/.cargo/env ]; then
     . ~/.cargo/env
 fi
 
-# Source .bashrc
-if [ -f ~/.bashrc ]; then
-    . ~/.bashrc
+# Source .profile
+if [ -f ~/.profile ]; then
+    . ~/.profile
 fi
 
