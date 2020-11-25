@@ -44,9 +44,6 @@
 [submodule "mutt/dracula"]
 	path = mutt/dracula
 	url = https://github.com/dracula/mutt.git
-[submodule "vim/pack/plugins/start/vim-airline"]
-	path = vim/pack/plugins/start/vim-airline
-	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/pack/plugins/start/vim-vinegar"]
 	path = vim/pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
@@ -56,3 +53,6 @@
 [submodule "emacs.d"]
 	path = emacs.d
 	url = https://github.com/hlissner/doom-emacs.git
+[submodule "vim/pack/plugins/start/vim-gitgutter"]
+	path = vim/pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
