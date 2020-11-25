@@ -1,8 +1,15 @@
-" Enable dracula color scheme
-packadd! dracula
+" Enable one dark color scheme
+packadd! onedark
 syntax enable
-let g:dracula_colorterm = 0
-colorscheme dracula
+
+" Enable true color
+if exists('+termguicolors')
+ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+ set termguicolors
+endif
+
+colorscheme onedark
 
 " Show invisibles
 set list
@@ -21,6 +28,6 @@ set omnifunc=syntaxcomplete#Complete
 let g:tmux_navigator_save_on_switch = 1
 
 let g:lightline = {
-      \ 'colorscheme': 'dracula',
+      \ 'colorscheme': 'onedark',
       \ }
 
