@@ -41,9 +41,6 @@
 [submodule "vim/pack/plugins/start/lightline.vim"]
 	path = vim/pack/plugins/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
-[submodule "mutt/dracula"]
-	path = mutt/dracula
-	url = https://github.com/dracula/mutt.git
 [submodule "vim/pack/plugins/start/vim-vinegar"]
 	path = vim/pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
