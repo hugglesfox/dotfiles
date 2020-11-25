@@ -9,7 +9,6 @@
 
 - link:
     ~/.bash_profile:
-    ~/.config/alacritty:
     ~/.doom.d:
     ~/.emacs.d:
     ~/.gitconfig:
