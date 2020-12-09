@@ -8,7 +8,8 @@
   - ~/.tmux
 
 - link:
-    ~/.bash_profile:
+    ~/.bashrc:
+      force: true
     ~/.doom.d:
     ~/.emacs.d:
     ~/.gitconfig:
