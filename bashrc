@@ -29,14 +29,3 @@ if [ -f ~/.cargo/env ]; then
     source ~/.cargo/env
 fi
 
-# Source .profile
-if [ -f ~/.profile ]; then
-    source ~/.profile
-fi
-
-# Enable fzf completions and keybindings
-if [ -d /usr/share/doc/fzf/examples ]; then
-    source /usr/share/doc/fzf/examples/key-bindings.bash
-    source /usr/share/doc/fzf/examples/completion.bash
-fi
-
