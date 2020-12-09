@@ -1,5 +1,5 @@
-" Enable one dark color scheme
-packadd! onedark
+" Enable one color scheme
+packadd! vim-one
 syntax enable
 
 " Enable true color
@@ -9,7 +9,13 @@ if exists('+termguicolors')
  set termguicolors
 endif
 
-colorscheme onedark
+" Use light theme
+set background=light
+
+" Enable italics for comments
+let g:one_allow_italics = 1
+
+colorscheme one
 
 " Show invisibles
 set list
@@ -28,6 +34,6 @@ set omnifunc=syntaxcomplete#Complete
 let g:tmux_navigator_save_on_switch = 1
 
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
+      \ 'colorscheme': 'one',
       \ }
 
