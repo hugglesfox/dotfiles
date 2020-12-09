@@ -17,6 +17,14 @@ fi
 
 # Put your fun stuff here.
 
+# Don't put duplicate lines or lines starting with a space in the history.
+HISTCONTROL=ignoreboth
+
+# ls aliases
+alias ll='ls -AF'
+alias la='ls -A'
+alias l='ls -CF'
+
 # Debian packaging configs
 export DEBFULLNAME="Hayley Hughes"
 export DEBEMAIL=hayley@foxes.systems
