@@ -2,7 +2,7 @@
     link:
       relink: true
 
-- clean: ['~', '~/.config', '~/.tmux']
+- clean: ['~', '~/.tmux']
 
 - create:
   - ~/.tmux
