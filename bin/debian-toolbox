@@ -32,7 +32,7 @@ sudo hostname -F /etc/hostname
 sudo eatmydata apt-get -y dist-upgrade
 
 # development tools
-sudo eatmydata apt-get install -y --no-install-recommends less vim git tmux bash-completion wget gnupg
+sudo eatmydata apt-get install -y --no-install-recommends less vim git tmux bash-completion wget gnupg emacs
 '
 
 toolbox enter --container $RELEASE
