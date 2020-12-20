@@ -26,11 +26,16 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # Debian packaging configs
-export DEBFULLNAME="Hayley Hughes"
+export DEBFULLNAME='Hayley Hughes'
 export DEBEMAIL=hayley@foxes.systems
 
 # Set quilt patches dir
 export QUILT_PATCHES=debian/patches
+
+# Add ~/bin to path
+#if [ -f ~/bin ]; then
+    export PATH="$HOME/bin:$PATH"
+#fi
 
 # Source .cargo/env
 if [ -f ~/.cargo/env ]; then
