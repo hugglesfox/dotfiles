@@ -27,6 +27,9 @@ set linebreak
 set ignorecase
 set smartcase
 
+" Show line numbers
+set number
+
 " Enable omnicompletions
 set omnifunc=syntaxcomplete#Complete
 
