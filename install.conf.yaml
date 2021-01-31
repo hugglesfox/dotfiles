@@ -11,7 +11,6 @@
     ~/.bashrc:
       force: true
     ~/.doom.d:
-    ~/.emacs.d:
     ~/.gitconfig:
     ~/.tmux.conf:
     ~/.tmux/tpm: tmux/tpm
@@ -21,4 +20,3 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [yes | ~/.emacs.d/bin/doom install]
