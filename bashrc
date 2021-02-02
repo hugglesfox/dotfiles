@@ -33,12 +33,17 @@ export DEBEMAIL=hayley@foxes.systems
 export QUILT_PATCHES=debian/patches
 
 # Add ~/bin to path
-#if [ -f ~/bin ]; then
+if [ -d ~/bin ]; then
     export PATH="$HOME/bin:$PATH"
-#fi
+fi
 
 # Source .cargo/env
-if [ -f ~/.cargo/env ]; then
-    source ~/.cargo/env
+if [ -d ~/.cargo/bin ]; then
+    export PATH="$HOME/.cargo/bin:$PATH"
+fi
+
+# Source .emacs.d/bin for doom cli tool
+if [ -d ~/.emacs.d/bin ]; then
+    export PATH="$HOME/.emacs.d/bin:$PATH"
 fi
 
