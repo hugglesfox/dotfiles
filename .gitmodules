@@ -41,9 +41,6 @@
 [submodule "vim/pack/plugins/start/vim-vinegar"]
 	path = vim/pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
-[submodule "tmux/plugins/tpm"]
-	path = tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm.git
 [submodule "emacs.d"]
 	path = emacs.d
 	url = https://github.com/hlissner/doom-emacs.git
@@ -53,3 +50,6 @@
 [submodule "vim/pack/themes/start/vim-one"]
 	path = vim/pack/themes/start/vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
