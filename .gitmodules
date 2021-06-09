@@ -42,7 +42,7 @@
 	path = vim/pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
 [submodule "tmux/tpm"]
-	path = tmux/tpm
+	path = tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
 [submodule "emacs.d"]
 	path = emacs.d

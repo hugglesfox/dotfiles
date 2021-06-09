@@ -5,7 +5,7 @@
 - clean: ['~', '~/.tmux']
 
 - create:
-  - ~/.tmux
+  - ~/.tmux/plugins
 
 - link:
     ~/.bashrc:
@@ -13,7 +13,7 @@
     ~/.doom.d:
     ~/.gitconfig:
     ~/.tmux.conf:
-    ~/.tmux/tpm: tmux/tpm
+    ~/.tmux/plugins/tpm: tmux/plugins/tpm
     ~/.vim:
     ~/.vimrc:
     ~/bin:
