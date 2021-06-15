@@ -8,7 +8,7 @@
   - ~/.tmux/plugins
 
 - link:
-    ~/.bashrc:
+    ~/.bash_aliases:
       force: true
     ~/.doom.d:
     ~/.gitconfig:
