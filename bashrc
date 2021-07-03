@@ -25,6 +25,10 @@ alias ll='ls -AF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# fzf support
+. /usr/share/bash-completion/completions/fzf
+. /usr/share/fzf/key-bindings.bash
+
 # Add ~/bin to path
 if [ -d ~/bin ]; then
     export PATH="$HOME/bin:$PATH"
