@@ -14,7 +14,7 @@ data.location=~/.task
 
 # Color theme (uncomment one to use)
 #include /usr/share/task/rc/light-16.theme
-#include /usr/share/task/rc/light-256.theme
+include /usr/share/task/rc/light-256.theme
 #include /usr/share/task/rc/dark-16.theme
 #include /usr/share/task/rc/dark-256.theme
 #include /usr/share/task/rc/dark-red-256.theme
